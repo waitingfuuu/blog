@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="x5-fullscreen" content="true">
+<meta name="full-screen" content="yes">
+<meta name="theme-color" content="#317EFB" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
+<meta name="keywords" content="">
+<meta name="description" content="DESATOO——甜品選購網站開啟甜點的⼀扇窗，致所有熱愛甜點的我們！使用者在選擇購買自己所愛甜品的同時，也能夠清楚的知道該項產品的熱量。並在購物車頁面中，透過小火龍來提醒消費者熱量已經過高！  負責部分：網站介面切板、版面樣式設定、首頁及購物車頁面  使用技術：HTML &#x2F; CSS &#x2F; JavaScript &#x2F; jQuery  原始碼：https:&#x2F;&#x2F;github.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DESATOO">
+<meta property="og:url" content="http://example.com/2022/04/28/desatoo/index.html">
+<meta property="og:site_name" content="Waitingfu">
+<meta property="og:description" content="DESATOO——甜品選購網站開啟甜點的⼀扇窗，致所有熱愛甜點的我們！使用者在選擇購買自己所愛甜品的同時，也能夠清楚的知道該項產品的熱量。並在購物車頁面中，透過小火龍來提醒消費者熱量已經過高！  負責部分：網站介面切板、版面樣式設定、首頁及購物車頁面  使用技術：HTML &#x2F; CSS &#x2F; JavaScript &#x2F; jQuery  原始碼：https:&#x2F;&#x2F;github.">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-04-28T09:05:00.000Z">
+<meta property="article:modified_time" content="2022-04-28T16:44:43.330Z">
+<meta property="article:author" content="Wei-Ting WANG">
+<meta property="article:tag" content="HTML">
+<meta property="article:tag" content="CSS">
+<meta property="article:tag" content="JavaScript">
+<meta property="article:tag" content="jQuery">
+<meta name="twitter:card" content="summary">
+
+    <meta name="description" content="Anyone can be anything.">
+
+<title>
+    DESATOO
+</title>
+
+
+
+
+<link rel="preload" href="//at.alicdn.com/t/font_1518765_bkgx3wku6h4.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1518765_bkgx3wku6h4.css">
+
+
+<link rel="stylesheet" href="/css/plugins/bootstrap.min.css">
+<link rel="stylesheet" href="/css/plugins/locomotive-scroll.css">
+<link rel="stylesheet" href="/css/plugins/swiper.min.css">
+<link rel="stylesheet" href="/css/plugins/fancybox.min.css">
+<link rel="stylesheet" href="/css/plugins/font-awesome.min.css">
+
+
+<!-- variable -->
+<script>window.TYPED_TEXT=[
+  "contact me"
+]</script>
+<script>window.FAVICON={
+  "icon16": null,
+  "icon32": null,
+  "appleTouchIcon": null,
+  "webmanifest": null,
+  "visibilitychange": false,
+  "hidden": null,
+  "showText": "(/≧▽≦/)咦！又好了！",
+  "hideText": "(●—●)喔喲，崩潰啦！"
+}</script>
+<script>window.HTMEM_VERSION='1.0.2'</script>
+<link data-theme-type="style-light" rel="stylesheet" href="/css/style-light.css?v=1.0.2" id="trm-switch-style">
+<link data-theme-type="style-dark" rel="stylesheet" href="/css/style-dark.css?v=1.0.2" id="trm-switch-style">
+
+<!-- theme css -->
+<script>
+    let themeMode = localStorage.getItem('theme-mode') === 'style-dark' ? 'style-light' : 'style-dark';
+    let linkdom = document.querySelector('[data-theme-type='+themeMode+']');
+    if(linkdom) linkdom.remove();
+</script>
+
+<!-- Site Analytics -->
+ 
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+
+  <!-- app wrapper -->
+  <div class="trm-app-frame">
+
+    <!-- page preloader -->
+    <div class="trm-preloader">
+    <div class="trm-holder">
+        <div class="preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+    <!-- page preloader end -->
+
+    <!-- change mode preloader -->
+    <div class="trm-mode-swich-animation-frame">
+    <div class="trm-mode-swich-animation"><i class="far fa-sun"></i>
+        <div class="trm-horizon"></div>
+        <i class="far fa-moon"></i>
+    </div>
+</div>
+    <!-- change mode preloader end -->
+
+      <!-- scroll container -->
+      <div id="trm-dynamic-content" class="trm-swup-animation">
+        <div id="trm-scroll-container" class="trm-scroll-container" data-scroll-container style="opacity: 0">
+          <div data-scroll-section id="content" class="trm-scroll-section">
+            <!-- top bar -->
+            <div class="trm-top-bar" data-scroll data-scroll-sticky data-scroll-target="#content" data-scroll-offset="-10">
+	<div class="container">
+		<div class="trm-left-side">
+			<!-- logo -->
+			<a href="/" class="trm-logo-frame trm-anima-link">
+				<img src="/img/myIcon.png" alt="logo">
+				<div class="trm-logo-text">
+					Waiting
+					<span>Fu</span>
+				</div>
+			</a>
+			<!-- logo end -->
+		</div>
+		<div class="trm-right-side">
+
+			<!-- menu -->
+			<div class="trm-menu">
+				<nav>
+					<ul>
+						
+						<li class="menu-item-has-children ">
+							<a  href="/">
+								Home
+							</a>
+							
+						</li>
+						
+						<li class="menu-item-has-children ">
+							<a  href="/archives/">
+								Archives
+							</a>
+							
+						</li>
+						
+						<li class="menu-item-has-children ">
+							<a  href="/links/">
+								Links
+							</a>
+							
+						</li>
+						
+						<li class="menu-item-has-children ">
+							<a  href="/about/">
+								About Me
+							</a>
+							
+						</li>
+						
+					</ul>
+				</nav>
+			</div>
+			<!-- menu end -->
+
+			<!-- mode switcher place -->
+			<div class="trm-mode-switcher-place"></div>
+			<!-- mode switcher place end -->
+
+		</div>
+		<div class="trm-menu-btn">
+			<span></span>
+		</div>
+	</div>
+</div>
+            <!-- top bar end -->
+
+            <!-- body -->
+            <div class="trm-content-start">
+
+    <!-- banner -->
+    <div class="trm-banner" data-scroll data-scroll-direction="vertical">
+    <!-- banner cover -->
+    <img src="/img/banner.jpg" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-3">
+    <!-- banner cover end -->
+
+    <!-- banner slideshow cover-->
+    <!-- <div class="swiper-container trm-slideshow" data-scroll data-scroll-direction="vertical" data-scroll-speed="-4">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/img/blog/b1.jpg" alt="banner" class="trm-banner-cover" data-swiper-parallax-y="-200" data-swiper-parallax-scale="1.2"></div>
+            <div class="swiper-slide"><img src="/img/blog/b2.jpg" alt="banner" class="trm-banner-cover" data-swiper-parallax-y="-200" data-swiper-parallax-scale="1.2"></div>
+            <div class="swiper-slide"><img src="/img/blog/b3.jpg" alt="banner" class="trm-banner-cover" data-swiper-parallax-y="-200" data-swiper-parallax-scale="1.2"></div>
+        </div>
+    </div> -->
+    <!-- banner slideshow cover end -->
+
+    <!-- banner video cover -->
+    <!-- <video autoplay="autoplay" loop muted playsinline webkit-playinginline class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-4">
+        <source src="img/banner.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="img/banner.webm" type='video/webm; codecs="vp8, vorbis"'>
+        <source src="img/banner.ogg" type='video/ogg; codecs="theora, vorbis"'>
+        Your browser does not support HTML5 video.
+    </video> -->
+    <!-- banner video cover end -->
+
+    <!-- banner cover end -->
+
+    <!-- banner content -->
+    <div class="trm-banner-content trm-overlay">
+        <div class="container" data-scroll data-scroll-direction="vertical" data-scroll-speed="0">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-8">
+
+                    <!-- banner title -->
+                    <div class="trm-banner-text">
+                        <div class="trm-label trm-mb-20">
+                            NEWS LETTER
+                        </div>
+                        <h1 class="trm-mb-30 trm-hsmb-font">
+                            DESATOO
+                        </h1>
+
+                        
+                            <ul class="trm-breadcrumbs trm-label">
+                                <li>
+                                    <a href="/" class="trm-anima-link">Home</a>
+                                </li>
+                                <li>
+                                    <span>
+                                        2022
+                                    </span
+                                ></li>
+                            </ul>
+                        
+                    </div>
+                    <!-- banner title end -->
+
+                    <!-- scroll hint -->
+                    <a href="#about-triger" data-scroll-to="#about-triger" data-scroll-offset="-130" class="trm-scroll-hint-frame">
+                        <div class="trm-scroll-hint"></div>
+                        <span class="trm-label">Scroll down</span>
+                    </a>
+                    <!-- scroll hint end -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner content end -->
+</div>
+    <!-- banner end -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- main card -->
+                <div class="trm-main-card-frame trm-sidebar">
+    <div class="trm-main-card" data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target="#content" data-scroll-offset="60">
+        <!-- card header -->
+        <div class="trm-mc-header">
+            <div class="trm-avatar-frame trm-mb-20"><img class="trm-avatar" src="/img/mypic.png" alt="Avatar"> </div>
+            <h5 class="trm-name trm-mb-15">
+                Wei-Ting WANG
+            </h5>
+            <div class="trm-label">
+                
+                <span class="trm-typed-text">
+                    <!-- Words for theme.user.typedText -->
+                </span>
+            </div>
+        </div>
+        <!-- card header end -->
+        <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+        <!-- sidebar social -->
+        <div class="trm-social">
+            
+                <a href="https://github.com/waitingfuuu" rel="nofollow" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            
+                <a href="https://www.facebook.com/waitingfuuu" rel="nofollow" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            
+                <a href="https://www.linkedin.com/in/waitingfuuu" rel="nofollow" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            
+        </div>
+        <!-- sidebar social end -->
+        <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+        <!-- info -->
+        <ul class="trm-table trm-mb-20">
+            
+                <li>
+                    <div class="trm-label">
+                        school:
+                    </div>
+                    <div class="trm-label trm-label-light">
+                        元智大學 資訊傳播系
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="trm-label">
+                        City:
+                    </div>
+                    <div class="trm-label trm-label-light">
+                        Taipei
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="trm-label">
+                        Age:
+                    </div>
+                    <div class="trm-label trm-label-light">
+                        22
+                    </div>
+                </li>
+            
+        </ul>
+        
+    </div>
+</div>
+                <!-- main card end -->
+            </div>
+            <div class="col-lg-8">
+                <!-- content -->
+                <div class="trm-content" id="trm-content">
+                    <div data-scroll data-scroll-repeat data-scroll-offset="500" id="about-triger"></div>
+                    
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="trm-card trm-label trm-label-light text-center"><i class="far fa-calendar-alt trm-icon"></i><br>
+                                04/28
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="trm-card trm-label trm-label-light text-center"><i class="far fa-clock trm-icon"></i><br>
+                                05:05
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="trm-card trm-label trm-label-light text-center"><i class="far fa-user trm-icon"></i><br>
+                                Wei-Ting WANG
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="trm-card trm-publication">
+                        <h1 id="DESATOO"><a href="#DESATOO" class="headerlink" title="DESATOO"></a>DESATOO</h1><h2 id="——甜品選購網站"><a href="#——甜品選購網站" class="headerlink" title="——甜品選購網站"></a>——甜品選購網站</h2><h3 id="開啟甜點的⼀扇窗，致所有熱愛甜點的我們！"><a href="#開啟甜點的⼀扇窗，致所有熱愛甜點的我們！" class="headerlink" title="開啟甜點的⼀扇窗，致所有熱愛甜點的我們！"></a>開啟甜點的⼀扇窗，致所有熱愛甜點的我們！</h3><p>使用者在選擇購買自己所愛甜品的同時，也能夠清楚的知道該項產品的熱量。<br>並在購物車頁面中，透過小火龍來提醒消費者熱量已經過高！</p>
+<ul>
+<li><p>負責部分：網站介面切板、版面樣式設定、首頁及購物車頁面</p>
+</li>
+<li><p>使用技術：HTML &#x2F; CSS &#x2F; JavaScript &#x2F; jQuery</p>
+</li>
+<li><p>原始碼：<a target="_blank" rel="noopener" href="https://github.com/waitingfuuu/desatoo">https://github.com/waitingfuuu/desatoo</a></p>
+</li>
+</ul>
+<h3 id="功能與特色："><a href="#功能與特色：" class="headerlink" title="功能與特色："></a>功能與特色：</h3><p>所有熱愛甜點的⼈都抱持著⼀顆既熱愛卻⼜怕熱量過⾼的⼼，總要時不時地擔⼼過量與熱量過⾼的問題，我們的網站解決了所有女孩與男孩的困擾，提供了這項特別的服務。在選購甜點之虞，也不⽤在擔⼼超過⼀天該有的卡路⾥的困擾，網站清楚的標⽰著每項產品的熱量，在結帳之前，也有貼⼼的⼩火龍會提醒熱量過⾼囉，會超過⾝體的負擔。</p>
+<p>我們的背景⽤淡淡的粉紅⾊表⽰著⼩孩的童年與歡樂，有著⼀顆童真未眠的⼼。我們家的產品也有貼⼼的提供包裝的選項，送禮⾃⽤兩相宜。巧克⼒也可以⼀覽無遺的去點選⾃⼰喜愛國家的巧克⼒，⽅⼩火龍快快樂樂的樣⼦ 超過熱量囉 有⼈在監督你囉便消費者購買。不同國家的巧克⼒相對的吃起來⼝感也會不盡相同。上⾯還附有詳細的介紹，可以依照⾃⼰的喜愛去選擇。</p>
+<p>一、標示熱量</p>
+<ol>
+<li>每項產品都有標示熱量</li>
+<li>購物車頁面會計算總熱量</li>
+<li>購物車頁面的小火龍超過一定熱量值會噴火</li>
+</ol>
+<p>二、產品包裝</p>
+<ol>
+<li>若需送禮可為特定產品挑選包裝</li>
+<li>每樣產品可搭配不同的包裝</li>
+</ol>
+<p>三、巧克力地圖</p>
+<ol>
+<li>巧克力頁面是以地圖進行點選</li>
+<li>不同國家的巧克力會附上其介紹</li>
+</ol>
+<p>四、頁面色調</p>
+<ol>
+<li>以淡粉色為主</li>
+<li>柔和的氛圍</li>
+</ol>
+
+                    </article>
+
+                    <!-- blog -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- title -->
+                            <h5 class="trm-mb-40 trm-title-with-divider">
+                                Other Articles
+                                <span data-number="02"></span>
+                            </h5>
+                        </div>
+                        
+                            <div class="col-lg-6">
+    <div class="trm-blog-card trm-scroll-animation" data-scroll data-scroll-offset="40">
+        <a href="/2022/04/28/hello-world/" class="trm-cover-frame trm-anima-link">
+            <img src="/img/block.jpg" alt="cover">
+        </a>
+        <div class="trm-card-descr">
+            <div class="trm-label trm-category trm-mb-20">
+                <a href=" #.">
+                    unclassified
+                </a>
+            </div>
+            <h5>
+                <a href="/2022/04/28/hello-world/" class="trm-anima-link">
+                    Hello World
+                </a>
+            </h5>
+            <div class="trm-divider trm-mb-20 trm-mt-20"></div>
+            <ul class="trm-card-data trm-label">
+                <li>
+                    04/28
+                </li>
+                <li>
+                    07:22
+                </li>
+                <li>
+                    75
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+                        
+                        
+                            <div class="col-lg-6">
+    <div class="trm-blog-card trm-scroll-animation" data-scroll data-scroll-offset="40">
+        <a href="/2022/04/28/punchin/" class="trm-cover-frame trm-anima-link">
+            <img src="/img/block.jpg" alt="cover">
+        </a>
+        <div class="trm-card-descr">
+            <div class="trm-label trm-category trm-mb-20">
+                <a href=" /categories/Website/">
+                    Website
+                </a>
+            </div>
+            <h5>
+                <a href="/2022/04/28/punchin/" class="trm-anima-link">
+                    PUNCH IN
+                </a>
+            </h5>
+            <div class="trm-divider trm-mb-20 trm-mt-20"></div>
+            <ul class="trm-card-data trm-label">
+                <li>
+                    04/28
+                </li>
+                <li>
+                    04:04
+                </li>
+                <li>
+                    312
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <!-- blog end -->
+
+                    
+
+                    <div class="trm-divider trm-mb-40"></div>
+
+                    <!-- footer -->
+                    <footer class="trm-scroll-animation" data-scroll data-scroll-offset="50">
+    <div class="trm-label">
+        ©  2022- 2022 ·
+        <span class="trm-accent-color">
+            Wei-Ting WANG
+        </span>
+    </div>
+    <div class="trm-label">
+        The blog has been lovely to run:
+        <span id="since" class="trm-accent-color"></span>
+        day
+    </div>
+</footer>
+<script>
+    function show_date_time () {
+        BirthDay = new Date("04/10/2022 17:00:00");
+        today = new Date();
+        timeold = (today.getTime() - BirthDay.getTime());
+        msPerDay = 24 * 60 * 60 * 1000
+        day = Math.floor(timeold / msPerDay)
+        since.innerHTML = day
+    }
+    show_date_time()
+</script>
+                    <!-- footer end -->
+                </div>
+                <!-- content end -->
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- body end -->
+          </div>
+        </div>
+      </div>
+      <!-- scroll container end -->
+
+      <!-- mode switcher -->
+      <div class="trm-hidden-switcher">
+        <div class="trm-mode-switcher"><i class="far fa-sun"></i>
+          <input class="tgl tgl-light" id="trm-swich" type="checkbox">
+          <label class="trm-swich" for="trm-swich"></label>
+          <i class="far fa-moon"></i>
+        </div>
+      </div>
+      <!-- mode switcher end -->
+
+  </div>
+  <!-- app wrapper end -->
+
+  
+<script src="/js/plugins/jquery.min.js"></script>
+<script src="/js/plugins/swup.min.js"></script>
+<script src="/js/plugins/locomotive-scroll.js"></script>
+<script src="/js/plugins/typing.js"></script>
+<script src="/js/plugins/fancybox.min.js"></script>
+<script src="/js/plugins/swiper.min.js"></script>
+
+
+<!-- 评论插件 -->
+
+
+<!-- Service Worker -->
+
+
+<script src="/js/main.js?v=1.0.2"></script>
+
+
+</body>
+
+</html>
